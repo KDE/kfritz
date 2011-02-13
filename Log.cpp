@@ -59,7 +59,7 @@ void LogBuf::PutBuffer(void)
 		case INFO:
 			emit signalAppend(buffer);
 			break;
-		case ERROR:
+		case LOG_ERROR:
 			emit signalAppend(buffer);
 			break;
 		case DEBUG:

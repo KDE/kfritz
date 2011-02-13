@@ -187,6 +187,9 @@ msgstr ""
 msgid "Show log"
 msgstr "Mostra il log"
 
+msgid "Start minimized"
+msgstr ""
+
 msgid "Type"
 msgstr "Tipo"
 

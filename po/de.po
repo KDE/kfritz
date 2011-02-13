@@ -184,6 +184,9 @@ msgstr "Nummer als Hauptnummer markieren"
 msgid "Show log"
 msgstr "Protokoll anzeigen"
 
+msgid "Start minimized"
+msgstr ""
+
 msgid "Type"
 msgstr "Typ"
 

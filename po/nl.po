@@ -184,6 +184,9 @@ msgstr "Als standaard zetten"
 msgid "Show log"
 msgstr "Laat de log zien"
 
+msgid "Start minimized"
+msgstr ""
+
 msgid "Type"
 msgstr "Type"
 

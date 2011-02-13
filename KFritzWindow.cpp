@@ -71,7 +71,7 @@ KFritzWindow::KFritzWindow()
 	KTextEdit *logArea = logDialog->getLogArea();
 	fritz::Config::SetupLogging(LogStream::getLogStream(LogBuf::DEBUG)->setLogWidget(logArea),
 							    LogStream::getLogStream(LogBuf::INFO)->setLogWidget(logArea),
-					            LogStream::getLogStream(LogBuf::ERROR)->setLogWidget(logArea));
+					            LogStream::getLogStream(LogBuf::LOG_ERROR)->setLogWidget(logArea));
 	bool savetoWallet = false;
 	bool requestPassword = true;
 

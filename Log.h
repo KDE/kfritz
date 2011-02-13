@@ -36,7 +36,7 @@ public:
 	enum eLogType {
 		DEBUG,
 		INFO,
-		ERROR,
+		LOG_ERROR,
 		NumLogTypes
 	};
 private:
