@@ -56,7 +56,8 @@ public Q_SLOTS:
 private:
 	fritz::Fonbook *fonbook;
 	int lastRows;
-	size_t mapColumnToNumberIndex(int column);
+	QVariant dataTopLevel(const QModelIndex & index, int role) const;
+	QVariant dataSubLevel(const QModelIndex & index, int role) const;
 };
 
 #endif /* KFONBOOKMODEL_H_ */
