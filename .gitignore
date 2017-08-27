@@ -3,3 +3,4 @@
 /po/
 /l10n-kde4/
 *.autosave
+*.user
